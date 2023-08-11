@@ -6,7 +6,7 @@ int main()
     printf("Digite um número inteiro: ");
     scanf("%d", &a);
 
-    if ((a % 2 == 0) && (a < 100))
+    if (!(a % 2) && (a < 100))
     {
         printf("O número é par e menor que 100\n");
     }
